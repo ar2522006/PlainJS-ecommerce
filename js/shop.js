@@ -1,9 +1,12 @@
 import { getallProducts } from "./api.js";
+import { updateCartNo } from "./cart-icon.js";
 import { addToCart } from "./cartUtilities.js";
 
 const productsDisplay = document.getElementById("ProductsDisplay");
 
 const allProducts = await getallProducts();
+
+updateCartNo()
 
 productsDisplay.innerHTML = allProducts.map((product) => {
   return `<div class="col-6 col-md-4 col-lg-3">

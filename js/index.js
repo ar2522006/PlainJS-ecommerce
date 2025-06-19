@@ -1,4 +1,5 @@
 import { getBestSellerProducts, getProductsCategories } from "./api.js";
+import { updateCartNo } from "./cart-icon.js";
 import { addToCart } from "./cartUtilities.js";
 
 const productsDisplay = document.getElementById("ProductsDisplay");
@@ -47,3 +48,5 @@ document.querySelectorAll('[data-product-id]').forEach(button => {
     addToCart(id)
   });
 });
+
+updateCartNo()

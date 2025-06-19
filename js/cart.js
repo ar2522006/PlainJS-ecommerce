@@ -1,16 +1,16 @@
+import { updateCartNo } from "./cart-icon.js";
 import { getCart, removeFromCart, updateCartQuantity } from "./cartUtilities.js";
 import { capitalize } from "./utilities.js";
 
 const CartItemsDisplay = document.getElementById("CartItemsDisplay");
 
 let CartItems = await getCart();
-console.log(CartItems);
+
+updateCartNo()
 
 function updateCartSummary(cartItems) {
   const cartList = document.getElementById("CartItemsList");
-  const productsTotal = document.getElementById("ProductsTotal");
   const orderSubtotal = document.getElementById("OrderSubtotal");
-  const checkoutBtn = document.getElementById("CheckoutBtn");
   const summaryContainer = document.getElementById("CartSummaryContainer");
 
   if (!cartItems.length) {

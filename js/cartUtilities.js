@@ -1,4 +1,5 @@
 import { getallProducts } from "./api.js";
+import { updateCartNo } from "./cart-icon.js";
 import { showToast } from "./toast.js";
 
 export function addToCart(productId) {
@@ -18,6 +19,7 @@ export function addToCart(productId) {
   showToast("Item added to cart.");
   // Save updated cart to localStorage
   localStorage.setItem("cart", JSON.stringify(cart));
+  updateCartNo()
 }
 
 export async function getCart() {
@@ -56,6 +58,7 @@ export function removeFromCart(productId) {
 
   // Optional: Show a toast notification
   showToast("Item removed from cart.");
+  updateCartNo()
 }
 
 // cartUtilities.js
@@ -68,4 +71,9 @@ export function updateCartQuantity(productId, newQuantity) {
     item.quantity = newQuantity;
     localStorage.setItem("cart", JSON.stringify(cart));
   }
+}
+
+export function getCartNo() {
+  const cart = JSON.parse(localStorage.getItem("cart")) || [];
+  return cart.reduce((total, item) => total + item.quantity, 0);
 }
