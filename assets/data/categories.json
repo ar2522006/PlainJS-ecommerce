@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Fruits",
+    "slug": "fruits",
+    "image": "assets/images/categories/fruits.webp"
+  },
+  {
+    "id": 2,
+    "title": "Vegetables",
+    "slug": "vegetables",
+    "image": "assets/images/categories/vegetables.webp"
+  },
+  {
+    "id": 3,
+    "title": "Dairy",
+    "slug": "dairy",
+    "image": "assets/images/categories/dairy.webp"
+  },
+  {
+    "id": 4,
+    "title": "Snacks",
+    "slug": "snacks",
+    "image": "assets/images/categories/snacks.webp"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "title": "Fresh Bananas",
+    "image": "assets/images/fresh_bananas.jpg",
+    "price": "Rs 100/dozen"
+  },
+  {
+    "id": "2",
+    "title": "Fresh Apples",
+    "image": "assets/images/fresh_apples.jpg",
+    "price": "Rs 100/kg"
+  },
+  {
+    "id": "3",
+    "title": "Red Tomatoes",
+    "image": "assets/images/red_tomatoes.webp",
+    "price": "Rs 120/kg"
+  },
+  {
+    "id": "4",
+    "title": "Organic Milk",
+    "image": "assets/images/organic_milk.webp",
+    "price": "Rs 210/liter"
+  },
+  {
+    "id": "5",
+    "title": "Fresh Strawberries",
+    "image": "assets/images/fresh_strawberries.jpg",
+    "price": "Rs 155/kg"
+  },
+  {
+    "id": "6",
+    "title": "Fresh Avocado",
+    "image": "assets/images/fresh_avocado.jpg",
+    "price": "Rs 320/kg"
+  },
+  {
+    "id": "7",
+    "title": "Red Bell Pepper",
+    "image": "assets/images/red_bell_pepper.jpg",
+    "price": "Rs 170/kg"
+  },
+  {
+    "id": "8",
+    "title": "Black Berries",
+    "image": "assets/images/black_berries.jpg",
+    "price": "Rs 410/kg"
+  },
+  {
+    "id": "9",
+    "title": "Fresh Lemon",
+    "image": "assets/images/fresh_lemon.jpg",
+    "price": "Rs 195/kg"
+  },
+  {
+    "id": "10",
+    "title": "Seedless Watermelon",
+    "image": "assets/images/seedless_watermelon.jpg",
+    "price": "Rs 180/kg"
+  },
+  {
+    "id": "11",
+    "title": "Red Grape Fruit",
+    "image": "assets/images/red_grapefruit.jpg",
+    "price": "Rs 410/kg"
+  },
+  {
+    "id": "12",
+    "title": "Fresh Apricot",
+    "image": "assets/images/fresh_apricot.jpg",
+    "price": "Rs 170/kg"
+  }
+]
